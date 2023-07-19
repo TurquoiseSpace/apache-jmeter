@@ -7,7 +7,7 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 120
     steps:
       -
         name: Get Current Date
@@ -38,6 +38,7 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
+            turquoisespace/apache-jmeter:5.6.2-ubuntu
             turquoisespace/apache-jmeter:ubuntu-23.10_openjdk-8u372b07_maven-3.9.3_jmeter-5.6.2
             turquoisespace/apache-jmeter:${{ steps.date.outputs.date }}_${{ github.sha }}
       -
