@@ -13,7 +13,11 @@ Dockerized Apache JMeter
 
 ## Image Pull with Tag
 
-[![Docker Image Size](https://img.shields.io/docker/image-size/turquoisespace/apache-jmeter/ubuntu-23.10_openjdk-8u372b07_maven-3.9.3_jmeter-5.6.2?color=orange)](https://hub.docker.com/layers/turquoisespace/apache-jmeter/ubuntu-23.10_openjdk-8u372b07_maven-3.9.3_jmeter-5.6.2/images/?context=explore)
+[![Docker Image Size](https://img.shields.io/docker/image-size/turquoisespace/apache-jmeter/ubuntu-23.10_openjdk-8u372b07_maven-3.9.3_jmeter-5.6.2?color=orange)](https://hub.docker.com/layers/turquoisespace/apache-jmeter/ubuntu-23.10_openjdk-8u372b07_maven-3.9.3_jmeter-5.6.2/images/sha256-c47cba6fcbd2f6c019f549062f88112f0ad47143a6eac238f78ac9262c7d5295?tab=layers)
+
+```
+docker pull turquoisespace/apache-jmeter:5.6.2-ubuntu
+```
 
 ```
 docker pull turquoisespace/apache-jmeter:ubuntu-23.10_openjdk-8u372b07_maven-3.9.3_jmeter-5.6.2
